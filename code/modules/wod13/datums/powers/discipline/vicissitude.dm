@@ -208,7 +208,7 @@
 		qdel(target)
 	else
 		target.emote("scream")
-		target.apply_damage(30, BRUTE, BODY_ZONE_CHEST)
+		target.apply_damage(30, CLONE, BODY_ZONE_CHEST)
 
 /datum/discipline_power/vicissitude/fleshcrafting/post_gain()
 	. = ..()
@@ -264,7 +264,7 @@
 		qdel(target)
 	else
 		target.emote("scream")
-		target.apply_damage(60, BRUTE, BODY_ZONE_CHEST)
+		target.apply_damage(50, CLONEE, BODY_ZONE_CHEST)
 
 /datum/discipline_power/vicissitude/bonecrafting/post_gain()
 	. = ..()
